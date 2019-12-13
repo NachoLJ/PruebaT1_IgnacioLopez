@@ -1,0 +1,30 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+*{
+    -fx-font-family: 'Poiret One';
+}
+
+.header{
+	-fx-background-image: url(view/asset/sky.jpeg);
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+.footer{
+	-fx-background-color: #FDA400;
+}
+
+.imgLogin{
+	-fx-background-radius: 50;
+}
+
+.btnNaranja{
+	-fx-background-color: #FDA400;
+}
+
+.btnNaranja:hover{
+	-fx-background-color: #FDCB72;
+}
+
+
+

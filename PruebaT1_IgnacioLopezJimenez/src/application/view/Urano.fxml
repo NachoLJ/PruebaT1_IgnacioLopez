@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ventanaSecundaria" style="-fx-background-color: white;" stylesheets="@../application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControlVentana">
+   <children>
+      <AnchorPane fx:id="panelMenu" prefHeight="600.0" prefWidth="235.0" style="-fx-background-color: #FDA400;">
+         <children>
+            <VBox alignment="TOP_CENTER" layoutY="108.0" prefHeight="492.0" prefWidth="235.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+               <children>
+                  <JFXButton prefHeight="55.0" prefWidth="234.0" styleClass="btnNaranja" text="MERCURIO" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="234.0" styleClass="btnNaranja" text="VENUS" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton layoutX="10.0" layoutY="61.0" prefHeight="55.0" prefWidth="234.0" styleClass="btnNaranja" text="TIERRA" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton layoutX="10.0" layoutY="112.0" prefHeight="55.0" prefWidth="234.0" styleClass="btnNaranja" text="MARTE" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton layoutX="10.0" layoutY="163.0" onMouseClicked="#salir" prefHeight="55.0" prefWidth="234.0" styleClass="btnNaranja" text="JUPITER" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton onMouseClicked="#salir" prefHeight="55.0" prefWidth="234.0" styleClass="btnNaranja" text="SATURNO" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton onMouseClicked="#salir" prefHeight="55.0" prefWidth="234.0" styleClass="btnNaranja" text="NEPTUNO" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton onMouseClicked="#salir" prefHeight="55.0" prefWidth="234.0" styleClass="btnNaranja" text="URANO" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <BorderPane prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <AnchorPane prefHeight="357.0" prefWidth="270.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+                     <children>
+                        <Label text="MERCURIO" />
+                        <Label alignment="CENTER" prefHeight="154.0" prefWidth="270.0" text="Mercurio es el planeta más cercano al Sol, que orbitan alrededor de nuestra estrella a una distancia media de 57,9 millones de km, teniendo sólo 88 días para completar un viaje alrededor del sol. El mercurio es el más pequeño planeta en el Sistema Solar, ahora que Plutón ha sido degradado a planeta enano. Tiene un diámetro de sólo 4.879,4 km. Aunque es tan pequeño, el mercurio tiene la segunda mayor densidad en el Sistema Solar, en el 5,4 g/cm3 – que es sólo un poco menos densa que la Tierra." textAlignment="CENTER" wrapText="true" />
+                        <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@asset/Mercurio.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children></AnchorPane>
+         </center>
+         <top>
+            <AnchorPane prefHeight="100.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="800.0" spacing="680.0" styleClass="header" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <JFXHamburger onMouseClicked="#visualizarPanelMenu">
+                           <HBox.margin>
+                              <Insets left="30.0" />
+                           </HBox.margin>
+                        </JFXHamburger>
+                        <ImageView fx:id="btnSalir" fitHeight="29.0" fitWidth="25.0" onMouseClicked="#salir" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@asset/error.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </top>
+         <bottom>
+            <AnchorPane prefHeight="74.0" prefWidth="800.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <left>
+            <AnchorPane prefHeight="332.0" prefWidth="276.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <AnchorPane prefHeight="332.0" prefWidth="254.0" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>
